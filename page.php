@@ -9,6 +9,7 @@
 
         <h2><?php the_title(); ?></h2>
         <?php the_content(); ?>
+        <p>ass</p>
 
       <?php endwhile; // end the loop?>
     </div> <!-- /,content -->
