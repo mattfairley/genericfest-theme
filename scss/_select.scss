@@ -1,0 +1,9 @@
+select {
+	background: $grey;
+	color: $light;
+	font-family: $accent-font;
+	text-transform: uppercase;
+	width: 20%;
+	margin: 1%;
+	@include font-size(18px);
+}

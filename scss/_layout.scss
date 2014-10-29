@@ -1,0 +1,102 @@
+
+img {
+  max-width:100%;
+}
+
+// // Global Classes / Wordpress Specific 
+.aligncenter    { text-align: center; margin: 0 auto; }
+.alignleft      { float: left; }
+.alignright     { float: right; }
+img.alignleft     { padding-right: 5px;}
+img.alignright    { padding-left: 5px; }
+.clear        { width:100%; float:left; clear:both;}
+
+.container {
+  max-width:1200px;
+  margin:0 auto;
+}
+
+.content {
+  float:left;
+  width:65%;
+  margin-right: 5%;
+
+}
+
+.full {
+  width:100%;
+}
+
+
+// =====================================================
+//                    Default Styling
+// =====================================================
+
+//blockquotes
+blockquote {
+  background: $light;
+  margin:0;
+  padding:20px;
+}
+  blockquote p {
+    margin-top: 0;
+  }
+
+//tables
+table td {
+  padding:10px;
+}
+table tr td:first {
+  padding-right: 0;
+}
+
+// ======================================================
+   //                 Sidebar
+// ======================================================
+.sidebar {
+  width:30%;
+  float:left;
+  ul {
+    margin:0;
+    padding:0;
+    li {
+      list-style: none;
+    }
+  }
+}
+
+//def lists
+dt {
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+dd {
+  padding:10px;
+  margin-left: 10px;
+}
+
+//lists
+ul li,ol li {
+  padding:3px;
+}
+
+//PRE
+
+pre {
+  background: $grey;
+  padding:10px;
+  border-radius: 4px;
+  border:1px solid #ccc;
+}
+
+
+
+
+
+// ======================================================
+   //                 Footer
+// ======================================================
+
+footer {
+  clear:both;
+}

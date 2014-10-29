@@ -1,0 +1,63 @@
+
+// Theme Name: GenericFest Theme
+// Theme URI: http://hackeryou.com;
+// Description: Starter theme for building any website. Created by HackerYou. Rename this to your own theme page.
+// Version: 1.0
+// Author: Matt Fairley & Nikin Nagewadia
+// Author URI: http://mattfairley.com/genericfest
+
+// =========================================== 
+// BASE STYLES
+// ===========================================
+@import "vars";
+@import "mixins";
+@import "normalize";
+@import "grid";
+@import "layout";
+@import "typography";
+@import "background";
+@import "buttons";
+@import "select";
+@import "radio";
+// @import "forms";
+// @import "animations";
+// ===========================================
+// VENDOR STYLES
+// ===========================================
+
+// ===========================================
+// COMPONENTS
+// ===========================================;
+// @import "components/buttons";
+@import "components/comments";
+// @import "components/profiles";
+// ===========================================
+// REGIONS
+// ===========================================
+// @import "header";
+// @import "footer";
+// @import "blog";
+// @import "about";
+
+
+
+// =======================================================
+   //                 Navigation
+// =======================================================
+  ul.menu {
+    margin:0;
+    padding:0;
+  }
+    ul.menu li {
+      display:inline;
+      margin-right: 10px;
+    }
+
+      ul.menu li a {
+        color: $dark;
+        padding:10px;
+        background: $grey;
+        color:white;
+      }
+
+

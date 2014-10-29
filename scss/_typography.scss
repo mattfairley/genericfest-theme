@@ -1,0 +1,62 @@
+body {
+  color: $dark;
+}
+
+// h1 - logo
+h1.logo {
+	font-family: $display-font;
+	text-transform: uppercase;
+	@include font-size(50px);
+	// letter-spacing: -1px;
+	letter-spacing: 10px;
+	text-shadow: 3px 2px white;
+}
+
+// h2
+h2.tagline {
+	font-family: $accent-font;
+	text-transform: uppercase;
+	@include font-size(38px);
+	letter-spacing: -2px;
+	color: $accent;
+}
+
+// h2 - sub-heading
+h2 {
+	font-family: $accent-font;
+	@include font-size(32px);
+	color: $grey;	
+}
+
+// h3
+h3 {
+	font-family: $main-font;
+	@include font-size(28px);
+}
+
+// h4
+h4 {
+	font-family: $main-font;
+	@include font-size(24px);
+}
+
+// h5
+h5 {
+	font-family: $main-font;
+	@include font-size(18px);
+}
+
+// links
+a {
+  color: $accent;
+  text-decoration: none;
+	&:hover {
+	  color: darken($accent, 10);
+	}
+}
+
+
+// paragraphs
+p {
+  line-height: 1.5;
+}
