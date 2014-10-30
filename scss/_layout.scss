@@ -18,13 +18,49 @@ img.alignright    { padding-left: 5px; }
 
 .content {
   float:left;
-  width:65%;
-  margin-right: 5%;
-
+  @include column(8);
 }
 
 .full {
   width:100%;
+}
+
+// ======================================================
+   //                 Sidebar
+// ======================================================
+.sidebar {
+  @include column(4);
+  ul {
+    margin:0;
+    padding:0;
+    li {
+      list-style: none;
+    }
+  }
+}
+
+//carousel section:
+
+div.carousel {
+  height: 90vh;
+  padding-top: 100px;
+}
+
+// ======================================================
+   //                 Info section on main page
+// ======================================================
+
+div.info {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  @include clearfix();
+  img.icon {
+    @include column(4);
+    @include push(2);
+  }
+  p.info {
+    @include column(4);
+  }
 }
 
 
@@ -50,21 +86,6 @@ table tr td:first {
   padding-right: 0;
 }
 
-// ======================================================
-   //                 Sidebar
-// ======================================================
-.sidebar {
-  width:30%;
-  float:left;
-  ul {
-    margin:0;
-    padding:0;
-    li {
-      list-style: none;
-    }
-  }
-}
-
 //def lists
 dt {
   font-weight: 600;
@@ -88,14 +109,6 @@ pre {
   border-radius: 4px;
   border:1px solid #ccc;
 }
-
-
-
-
-
-// ======================================================
-   //                 Footer
-// ======================================================
 
 footer {
   clear:both;

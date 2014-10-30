@@ -2,11 +2,19 @@
 <?php get_header(); ?>
 
 <!-- carousel -->
-<div class="carousel"></div>
+<div class="carousel">
+	<div class="container">	
+		<h1 class="logo">GenericFest</h1>
+		<!-- <img src="" alt="" class="logo"> -->
+		<h2 class="tagline">The greatest local event or festival</h2>
+		<!-- down arrow <img src="" alt=""> -->
+	</div>
+</div>
 <!-- general info -->
 <div class="info">
 	<div class="container">
-		<img src="http://placecage.com/g/200/200" alt="" class="icon">
+		<h2>Come join us!</h2>
+		<img src="http://placecage.com/g/200/100" alt="" class="icon">
 		<p class="info"><span class="event-name"><?php bloginfo( 'name' ); ?></span> is a 1-4 day festival or event taking place <span class="event-date">November 17-18</span> in your local area.</p>
 	</div>
 </div>
