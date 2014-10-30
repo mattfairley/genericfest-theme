@@ -24,11 +24,13 @@
         <?php bloginfo( 'name' ); ?>
       </a>
     </h1>
-
-    <?php wp_nav_menu( array(
-      'container' => false,
-      'menu' => 'header'
-    )); ?>
+    <nav class="menu">
+      <?php wp_nav_menu( array(
+        'container' => false,
+        'menu' => 'header',
+        'theme_location' => 'primary'
+      )); ?>
+    </nav>
   </div> <!-- /.container -->
 </header><!--/.header-->
 

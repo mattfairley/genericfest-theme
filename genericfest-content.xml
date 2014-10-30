@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.0" created="2014-10-28 21:44" -->
+<!-- generator="WordPress/4.0" created="2014-10-30 14:31" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Generic Fest</title>
 	<link>http://localhost:8888/genericfest</link>
 	<description>A wordpress theme for festivals and events</description>
-	<pubDate>Tue, 28 Oct 2014 21:44:01 +0000</pubDate>
+	<pubDate>Thu, 30 Oct 2014 14:31:34 +0000</pubDate>
 	<language>en-CA</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://localhost:8888/genericfest</wp:base_site_url>
@@ -522,13 +522,13 @@ Contact <a href="mailto:matt.fairley@gmail.com">Matt</a> for more information ab
 		</wp:postmeta>
 	</item>
 	<item>
-				<title></title>
+				<title>News</title>
 		<link>http://localhost:8888/genericfest/2014/10/30/</link>
 		<pubDate>Tue, 28 Oct 2014 21:40:19 +0000</pubDate>
 		<dc:creator><![CDATA[master]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8888/genericfest/?p=30</guid>
 		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>30</wp:post_id>
 		<wp:post_date>2014-10-28 17:40:19</wp:post_date>
@@ -632,13 +632,13 @@ Contact <a href="mailto:matt.fairley@gmail.com">Matt</a> for more information ab
 		</wp:postmeta>
 	</item>
 	<item>
-				<title></title>
+				<title>Contact</title>
 		<link>http://localhost:8888/genericfest/2014/10/32/</link>
 		<pubDate>Tue, 28 Oct 2014 21:40:19 +0000</pubDate>
 		<dc:creator><![CDATA[master]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8888/genericfest/?p=32</guid>
 		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>32</wp:post_id>
 		<wp:post_date>2014-10-28 17:40:19</wp:post_date>
@@ -687,13 +687,13 @@ Contact <a href="mailto:matt.fairley@gmail.com">Matt</a> for more information ab
 		</wp:postmeta>
 	</item>
 	<item>
-				<title></title>
+				<title>Schedule</title>
 		<link>http://localhost:8888/genericfest/2014/10/33/</link>
 		<pubDate>Tue, 28 Oct 2014 21:40:19 +0000</pubDate>
 		<dc:creator><![CDATA[master]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8888/genericfest/?p=33</guid>
 		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>33</wp:post_id>
 		<wp:post_date>2014-10-28 17:40:19</wp:post_date>
@@ -793,6 +793,132 @@ Contact <a href="mailto:matt.fairley@gmail.com">Matt</a> for more information ab
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Primary Contact</title>
+		<link>http://localhost:8888/genericfest/?post_type=wpcf7_contact_form&#038;p=35</link>
+		<pubDate>Wed, 29 Oct 2014 18:32:14 +0000</pubDate>
+		<dc:creator><![CDATA[master]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8888/genericfest/?post_type=wpcf7_contact_form&#038;p=35</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p>Your Name (required)<br />
+    [text* your-name] </p>
+
+<p>Your Email (required)<br />
+    [email* your-email] </p>
+
+<p>Subject<br />
+    [text your-subject] </p>
+
+<p>Your Message<br />
+    [textarea your-message] </p>
+
+<p>[submit "Send"]</p>
+[your-subject]
+[your-name] <matt.fairley@gmail.com>
+From: [your-name] <[your-email]>
+Subject: [your-subject]
+
+Message Body:
+[your-message]
+
+--
+This e-mail was sent from a contact form on Generic Fest (http://localhost:8888/genericfest)
+matt.fairley@gmail.com
+Reply-To: [your-email]
+
+
+
+
+[your-subject]
+Generic Fest <matt.fairley@gmail.com>
+Message Body:
+[your-message]
+
+--
+This e-mail was sent from a contact form on Generic Fest (http://localhost:8888/genericfest)
+[your-email]
+Reply-To: matt.fairley@gmail.com
+
+
+
+Your message was sent successfully. Thanks.
+Failed to send your message. Please try later or contact the administrator by another method.
+Validation errors occurred. Please confirm the fields and submit it again.
+Failed to send your message. Please try later or contact the administrator by another method.
+Please accept the terms to proceed.
+Please fill the required field.
+Your entered code is incorrect.
+Number format seems invalid.
+This number is too small.
+This number is too large.
+Email address seems invalid.
+URL seems invalid.
+Telephone number seems invalid.
+Your answer is not correct.
+Date format seems invalid.
+This date is too early.
+This date is too late.
+Failed to upload file.
+This file type is not allowed.
+This file is too large.
+Failed to upload file. Error occurred.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>35</wp:post_id>
+		<wp:post_date>2014-10-29 14:32:14</wp:post_date>
+		<wp:post_date_gmt>2014-10-29 18:32:14</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>contact-form-1</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>wpcf7_contact_form</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_form</wp:meta_key>
+			<wp:meta_value><![CDATA[<p>Your Name (required)<br />
+    [text* your-name] </p>
+
+<p>Your Email (required)<br />
+    [email* your-email] </p>
+
+<p>Subject<br />
+    [text your-subject] </p>
+
+<p>Your Message<br />
+    [textarea your-message] </p>
+
+<p>[submit "Send"]</p>]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_mail</wp:meta_key>
+			<wp:meta_value><![CDATA[a:8:{s:7:"subject";s:14:"[your-subject]";s:6:"sender";s:36:"[your-name] <matt.fairley@gmail.com>";s:4:"body";s:183:"From: [your-name] <[your-email]>
+Subject: [your-subject]
+
+Message Body:
+[your-message]
+
+--
+This e-mail was sent from a contact form on Generic Fest (http://localhost:8888/genericfest)";s:9:"recipient";s:22:"matt.fairley@gmail.com";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_mail_2</wp:meta_key>
+			<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:14:"[your-subject]";s:6:"sender";s:37:"Generic Fest <matt.fairley@gmail.com>";s:4:"body";s:125:"Message Body:
+[your-message]
+
+--
+This e-mail was sent from a contact form on Generic Fest (http://localhost:8888/genericfest)";s:9:"recipient";s:12:"[your-email]";s:18:"additional_headers";s:32:"Reply-To: matt.fairley@gmail.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_messages</wp:meta_key>
+			<wp:meta_value><![CDATA[a:21:{s:12:"mail_sent_ok";s:43:"Your message was sent successfully. Thanks.";s:12:"mail_sent_ng";s:93:"Failed to send your message. Please try later or contact the administrator by another method.";s:16:"validation_error";s:74:"Validation errors occurred. Please confirm the fields and submit it again.";s:4:"spam";s:93:"Failed to send your message. Please try later or contact the administrator by another method.";s:12:"accept_terms";s:35:"Please accept the terms to proceed.";s:16:"invalid_required";s:31:"Please fill the required field.";s:17:"captcha_not_match";s:31:"Your entered code is incorrect.";s:14:"invalid_number";s:28:"Number format seems invalid.";s:16:"number_too_small";s:25:"This number is too small.";s:16:"number_too_large";s:25:"This number is too large.";s:13:"invalid_email";s:28:"Email address seems invalid.";s:11:"invalid_url";s:18:"URL seems invalid.";s:11:"invalid_tel";s:31:"Telephone number seems invalid.";s:23:"quiz_answer_not_correct";s:27:"Your answer is not correct.";s:12:"invalid_date";s:26:"Date format seems invalid.";s:14:"date_too_early";s:23:"This date is too early.";s:13:"date_too_late";s:22:"This date is too late.";s:13:"upload_failed";s:22:"Failed to upload file.";s:24:"upload_file_type_invalid";s:30:"This file type is not allowed.";s:21:"upload_file_too_large";s:23:"This file is too large.";s:23:"upload_failed_php_error";s:38:"Failed to upload file. Error occurred.";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_additional_settings</wp:meta_key>
 			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
