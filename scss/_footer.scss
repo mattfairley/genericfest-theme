@@ -1,0 +1,14 @@
+//footer styles go here
+
+footer {
+	text-align: center;
+	background: $dark;
+	padding: 10px;
+	width: 100%;
+	span.copy {
+		color: $light
+	}
+	span.theme-by {
+		color: $grey;
+	}
+}

@@ -34,30 +34,7 @@
 // ===========================================
 // REGIONS
 // ===========================================
-// @import "header";
-// @import "footer";
+@import "header";
+@import "footer";
 // @import "blog";
 // @import "about";
-
-
-
-// =======================================================
-   //                 Navigation
-// =======================================================
-  ul.menu {
-    margin:0;
-    padding:0;
-  }
-    ul.menu li {
-      display:inline;
-      margin-right: 10px;
-    }
-
-      ul.menu li a {
-        color: $dark;
-        padding:10px;
-        background: $grey;
-        color:white;
-      }
-
-
