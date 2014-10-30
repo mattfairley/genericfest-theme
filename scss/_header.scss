@@ -35,7 +35,12 @@ nav.menu ul {
 	li {
     	display:inline-block;
     	padding: 0;
+    	i {
+    		color: $accent;
+    		padding-right: 3px;
+    	}
 		a {
+	    	color: $grey;
 			font-family: $accent-font;
 			text-transform: uppercase;
 			display: inline-block;
@@ -44,6 +49,10 @@ nav.menu ul {
         	padding:15px 10px;
         	&:hover {
         		background: lighten($dark, 10);
+        		i {
+    				color: lighten($accent, 10);
+        			
+        		}
         	}
     	}
 	}
