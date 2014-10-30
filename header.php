@@ -8,6 +8,7 @@
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
   <?php // Load our CSS ?>
+  <link href='http://fonts.googleapis.com/css?family=Arvo:400,700|Roboto:400,500,700,300,100|Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 
   <?php wp_head(); ?>
@@ -16,7 +17,7 @@
 
 <body <?php body_class(); ?>>
 
-<header>
+<header class="clearfix">
   <div class="container">
     <h1>
       <a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">

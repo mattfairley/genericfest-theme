@@ -280,12 +280,17 @@ footer {
 }
 
 body {
+  font-family: "roboto", sans-serif;
   color: #2c3e50;
 }
 
-h1.logo {
+h1 {
   font-family: "arvo", serif;
   text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+h1.logo {
   font-size: 50px;
   font-size: 3.125rem;
   letter-spacing: 10px;
@@ -343,6 +348,8 @@ a:hover {
 p {
   font-family: "Varela Round", sans-serif;
   line-height: 1.5;
+  font-size: 16px;
+  font-size: 1rem;
 }
 
 body {
@@ -633,21 +640,58 @@ p.form-allowed-tags, .nocomments {
   margin: 0;
 }
 
-ul.menu {
+header {
+  width: 100%;
+  padding: 10px;
+  background: #2c3e50;
+}
+
+header h1 {
+  width: 30%;
+  float: left;
+  margin: 0;
+  font-size: 40px;
+  font-size: 2.5rem;
+  text-shadow: 1px 1px 0px #000;
+}
+
+div.menu {
+  float: right;
+  width: 70%;
+  text-align: right;
+}
+
+div.menu ul {
   margin: 0;
   padding: 0;
+  font-size: 0;
+  list-style: none;
 }
-
-ul.menu li {
-  display: inline;
-  margin-right: 10px;
+div.menu ul li {
+  display: inline-block;
+  padding: 0;
 }
-
-ul.menu li a {
-  color: #2c3e50;
+div.menu ul li a {
+  font-family: "roboto condensed", sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 22px;
+  font-size: 1.375rem;
+  text-shadow: 1px 1px 0px #000;
   padding: 10px;
-  background: #95a5a6;
-  color: white;
+}
+
+footer {
+  text-align: center;
+  background: #2c3e50;
+  padding: 10px;
+  width: 100%;
+}
+footer span.copy {
+  color: #ecf0f1;
+}
+footer span.theme-by {
+  color: #95a5a6;
 }
 
 /*# sourceMappingURL=style.css.map */

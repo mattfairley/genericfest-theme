@@ -1,6 +1,6 @@
 <footer>
   <div class="container">
-    <p>&copy; HackerYou <?php echo date('Y'); ?></p>
+    <p><span class="copy">&copy; <?php bloginfo( 'name' ); ?> <?php echo date('Y'); ?></span> - <span class="theme-by">Theme by <a href="http://mattfairley.com">Matt Fairley</a> and <a href="http://nikin.net">Nikin Nagewadia</a></span></p>
   </div>
 </footer>
 
