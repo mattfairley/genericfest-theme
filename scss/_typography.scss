@@ -1,13 +1,17 @@
 body {
+	font-family: $main-font;
   color: $dark;
+}
+
+h1 {
+	font-family: $display-font;
+	text-transform: uppercase;
+	letter-spacing: -1px;
 }
 
 // h1 - logo
 h1.logo {
-	font-family: $display-font;
-	text-transform: uppercase;
 	@include font-size(50px);
-	// letter-spacing: -1px;
 	letter-spacing: 10px;
 	text-shadow: 3px 2px white;
 }
@@ -48,10 +52,10 @@ h5 {
 
 // links
 a {
-  color: $accent;
-  text-decoration: none;
-	&:hover {
-	  color: darken($accent, 10);
+	color: $accent;
+	text-decoration: none;
+		&:hover {
+		color: darken($accent, 10);
 	}
 }
 
@@ -59,4 +63,5 @@ a {
 // paragraphs
 p {
   line-height: 1.5;
+  @include font-size(16px);
 }
