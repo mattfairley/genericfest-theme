@@ -11,4 +11,11 @@ footer#page {
 	span.theme-by {
 		color: $grey;
 	}
+	i {
+		color: $grey;
+		margin: 10px;
+		&:hover {
+			color: $accent;
+		}
+	}
 }
