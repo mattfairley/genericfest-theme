@@ -1,0 +1,22 @@
+textarea {
+	background: #fff;
+	border: none;
+	border-radius: 5px;
+	font-family: $main-font;
+	outline-color: $accent;
+	margin: 5px;
+	text-transform: uppercase;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+	background: #fff;
+	border: none;
+	border-radius: 5px;
+	font-family: $main-font;
+	outline-color: $accent;
+	text-transform: uppercase;
+	margin: 5px;
+	padding: 5px;
+}

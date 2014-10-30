@@ -27,8 +27,7 @@
 
     <?php wp_nav_menu( array(
       'container' => false,
-      'menu' => 'header',
-      'theme_location' => 'primary'
+      'menu' => 'header'
     )); ?>
   </div> <!-- /.container -->
 </header><!--/.header-->

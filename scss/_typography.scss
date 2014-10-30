@@ -50,6 +50,12 @@ h5 {
 	@include font-size(18px);
 }
 
+// h6
+h6 {
+	font-family: $main-font;
+	@include font-size(16px);
+}
+
 // links
 a {
 	color: $accent;
@@ -62,6 +68,6 @@ a {
 
 // paragraphs
 p {
-  line-height: 1.5;
-  @include font-size(16px);
+	font-family: $paragraph;
+	line-height: 1.5;
 }
