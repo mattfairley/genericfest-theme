@@ -216,12 +216,59 @@ img.alignright {
 
 .content {
   float: left;
-  width: 65%;
-  margin-right: 5%;
+  display: inline;
+  float: left;
+  width: 620px;
+  margin: 0 10px;
 }
 
 .full {
   width: 100%;
+}
+
+.sidebar {
+  display: inline;
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+}
+.sidebar ul {
+  margin: 0;
+  padding: 0;
+}
+.sidebar ul li {
+  list-style: none;
+}
+
+div.carousel {
+  height: 90vh;
+  padding-top: 100px;
+}
+
+div.info {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  *zoom: 1;
+}
+div.info:before, div.info:after {
+  content: "";
+  display: table;
+}
+div.info:after {
+  clear: both;
+}
+div.info img.icon {
+  display: inline;
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+  margin-left: 170px;
+}
+div.info p.info {
+  display: inline;
+  float: left;
+  width: 300px;
+  margin: 0 10px;
 }
 
 blockquote {
@@ -240,18 +287,6 @@ table td {
 
 table tr td:first {
   padding-right: 0;
-}
-
-.sidebar {
-  width: 30%;
-  float: left;
-}
-.sidebar ul {
-  margin: 0;
-  padding: 0;
-}
-.sidebar ul li {
-  list-style: none;
 }
 
 dt {
@@ -295,6 +330,7 @@ h1.logo {
   font-size: 3.125rem;
   letter-spacing: 10px;
   text-shadow: 3px 2px white;
+  text-align: center;
 }
 
 h2.tagline {
@@ -303,7 +339,9 @@ h2.tagline {
   font-size: 38px;
   font-size: 2.375rem;
   letter-spacing: -2px;
-  color: #2ecc71;
+  color: #27ae60;
+  text-shadow: 2px 2px 0px #000;
+  text-align: center;
 }
 
 h2 {
@@ -338,11 +376,11 @@ h6 {
 }
 
 a {
-  color: #2ecc71;
+  color: #27ae60;
   text-decoration: none;
 }
 a:hover {
-  color: #54d98c;
+  color: #36d278;
 }
 
 p {
@@ -350,14 +388,56 @@ p {
   line-height: 1.5;
 }
 
+div.info {
+  color: #ecf0f1;
+}
+div.info h2 {
+  color: #2c3e50;
+  font-family: "arvo", serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+div.info p.info {
+  font-family: "roboto condensed", sans-serif;
+  font-size: 20px;
+  font-size: 1.25rem;
+}
+div.info span {
+  color: #2c3e50;
+}
+
 body {
   background: #ecf0f1;
 }
 
+div.info {
+  background: #27ae60;
+}
+
+div.carousel {
+  background: url(img/festival-placeholder.jpg);
+  background-size: cover;
+  position: relative;
+}
+div.carousel:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(149, 165, 166, 0.5);
+  z-index: 10;
+}
+div.carousel .container {
+  position: relative;
+  z-index: 20;
+}
+
 button {
   background: transparent;
-  border: 3px solid #2ecc71;
-  color: #2ecc71;
+  border: 3px solid #27ae60;
+  color: #27ae60;
   padding: 10px 25px;
   text-transform: uppercase;
   font-family: "roboto condensed", sans-serif;
@@ -367,7 +447,7 @@ button {
   font-size: 1.5rem;
 }
 button:hover {
-  background: #2ecc71;
+  background: #27ae60;
   color: #ecf0f1;
 }
 
@@ -407,7 +487,7 @@ textarea {
   border: none;
   border-radius: 5px;
   font-family: "roboto", sans-serif;
-  outline-color: #2ecc71;
+  outline-color: #27ae60;
   margin: 5px;
 }
 
@@ -418,7 +498,11 @@ input[type="email"] {
   border: none;
   border-radius: 5px;
   font-family: "roboto", sans-serif;
+<<<<<<< HEAD
   outline-color: #2ecc71;
+=======
+  outline-color: #27ae60;
+>>>>>>> 3fdbbc122e66b9116d3828ae486ba661f9c58711
   margin: 5px;
   padding: 5px;
 }
