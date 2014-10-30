@@ -1,4 +1,4 @@
-<footer>
+<footer id="page">
   <div class="container">
     <p><span class="copy">&copy; <?php bloginfo( 'name' ); ?> <?php echo date('Y'); ?></span> - <span class="theme-by">Theme by <a href="http://mattfairley.com">Matt Fairley</a> and <a href="http://nikin.net">Nikin Nagewadia</a></span></p>
   </div>
