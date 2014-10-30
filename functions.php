@@ -20,10 +20,10 @@ function theme_setup() {
 
 	/* This theme uses wp_nav_menu() in one location.
 	* You can allow clients to create multiple menus by
-  * adding additional menus to the array. */
+	* adding additional menus to the array. */
 	register_nav_menus( array(
 		'primary' => 'Primary Navigation'
-	) );
+	));
 
 	/*
 	 * Switch default core markup for search form, comment form, and comments
@@ -31,7 +31,7 @@ function theme_setup() {
 	 */
 	add_theme_support( 'html5', array(
 		'search-form', 'comment-form', 'comment-list', 'gallery', 'caption'
-	) );
+	));
 
 }
 endif;
@@ -47,29 +47,29 @@ function hackeryou_scripts() {
 
 	//Don't use WordPress' local copy of jquery, load our own version from a CDN instead
 	wp_deregister_script('jquery');
-  wp_enqueue_script(
-  	'jquery',
-  	"http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js",
-  	false, //dependencies
-  	null, //version number
-  	true //load in footer
-  );
+	wp_enqueue_script(
+		'jquery',
+		"http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js",
+		false, //dependencies
+		null, //version number
+		true //load in footer
+	);
 
-  wp_enqueue_script(
-    'plugins', //handle
-    get_template_directory_uri() . '/js/plugins.js', //source
-    false, //dependencies
-    null, // version number
-    true //load in footer
-  );
+	wp_enqueue_script(
+		'plugins', //handle
+		get_template_directory_uri() . '/js/plugins.js', //source
+		false, //dependencies
+		null, // version number
+		true //load in footer
+	);
 
-  wp_enqueue_script(
-    'scripts', //handle
-    get_template_directory_uri() . '/js/scripts.js', //source
-    array( 'jquery', 'plugins' ), //dependencies
-    null, // version number
-    true //load in footer
-  );
+	wp_enqueue_script(
+		'scripts', //handle
+		get_template_directory_uri() . '/js/scripts.js', //source
+		array( 'jquery', 'plugins' ), //dependencies
+		null, // version number
+		true //load in footer
+	);
 }
 
 add_action( 'wp_enqueue_scripts', 'hackeryou_scripts' );
