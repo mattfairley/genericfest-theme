@@ -1,9 +1,9 @@
 <footer id="page">
-  <div class="container">
+  <div class="container clearfix">
     <div class="social-media">
-    	<i class="fa fa-facebook-square fa-3x"></i>
-    	<i class="fa fa-twitter-square fa-3x"></i>
-    	<i class="fa fa-instagram fa-3x"></i>
+    	<i class="fa fa-facebook-square fa-2x"></i>
+    	<i class="fa fa-twitter-square fa-2x"></i>
+    	<i class="fa fa-instagram fa-2x"></i>
     </div> <!-- /.social-media -->
     <div class="info">
 	    <p><span class="copy">&copy; <?php bloginfo( 'name' ); ?> <?php echo date('Y'); ?></span> &bull; <span class="theme-by">Theme by <a href="http://mattfairley.com">Matt Fairley</a> and <a href="http://nikin.net">Nikin Nagewadia</a></span></p>
