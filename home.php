@@ -11,7 +11,7 @@
 	</div>
 </div>
 <!-- general info -->
-<div class="info">
+<div class="headline">
 	<div class="container">
 		<h2>Come join us!</h2>
 		<img src="http://placecage.com/g/200/100" alt="" class="icon">
