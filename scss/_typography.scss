@@ -75,6 +75,14 @@ p {
 	line-height: 1.5;
 }
 
+p.entry-date {
+	@include font-size(14px);
+	color: $grey;
+	span {
+		color: darken($grey, 20);
+	}
+}
+
 div.headline {
 	color: $light;
 	h2 {
@@ -90,4 +98,12 @@ div.headline {
 	span {
 		color: $dark;
 	}
+}
+
+h2.news {
+	text-align: center;
+	text-transform: uppercase;
+	color: $dark;
+	font-family: $display-font;
+	letter-spacing: -1px
 }
