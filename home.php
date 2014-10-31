@@ -22,7 +22,7 @@
 
 <div class="main">
   <div class="container">
-
+	<h2 class="news">Latest news</h2>
     <div class="content">
     		<?php get_template_part( 'loop', 'index' );	?>
     </div> <!--/.content -->

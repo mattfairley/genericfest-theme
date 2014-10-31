@@ -405,6 +405,15 @@ p {
   line-height: 1.5;
 }
 
+p.entry-date {
+  font-size: 14px;
+  font-size: 0.875rem;
+  color: #95a5a6;
+}
+p.entry-date span {
+  color: #617374;
+}
+
 div.headline {
   color: #ecf0f1;
 }
@@ -421,6 +430,14 @@ div.headline p.info {
 }
 div.headline span {
   color: #2c3e50;
+}
+
+h2.news {
+  text-align: center;
+  text-transform: uppercase;
+  color: #2c3e50;
+  font-family: "arvo", serif;
+  letter-spacing: -1px;
 }
 
 body {

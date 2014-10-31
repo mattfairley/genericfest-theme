@@ -22,7 +22,7 @@
     		<?php the_title(); ?>
     		</a>
 		</h2>
-		<p class="entry-date"> <?php the_date('l, F j, Y', 'Posted on ') ?> </h4>
+		<p class="entry-date">Posted on <?php the_date('l, F j, Y', '<span>', '</span>') ?> </h4>
 
 		<section class="entry-content">
 			<?php the_content('Continue reading <span class="meta-nav">&rarr;</span>'); ?>
