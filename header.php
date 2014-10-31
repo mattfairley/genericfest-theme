@@ -31,6 +31,7 @@
       'menu' => 'header',
       'theme_location' => 'primary'
     )); ?>
+    <!-- hamburger -->
   </div> <!-- /.container -->
 </header><!--/.header-->
 
