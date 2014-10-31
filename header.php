@@ -31,7 +31,7 @@
       'menu' => 'header',
       'theme_location' => 'primary'
     )); ?>
-    <!-- hamburger -->
+    <i class="fa fa-align-justify"></i>
   </div> <!-- /.container -->
 </header><!--/.header-->
 
