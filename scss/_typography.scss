@@ -107,3 +107,10 @@ h2.news {
 	font-family: $display-font;
 	letter-spacing: -1px
 }
+
+span.continue-reading {
+	color: $dark;
+	text-transform: uppercase;
+	font-family: $accent-font;
+	font-weight: 700;
+}

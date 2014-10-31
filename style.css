@@ -220,6 +220,7 @@ img.alignright {
   float: left;
   width: 64.58333%;
   margin: 0 1.04167%;
+  padding-bottom: 50px;
 }
 
 .full {
@@ -242,7 +243,18 @@ img.alignright {
 
 div.carousel {
   height: 90vh;
-  padding-top: 100px;
+  padding-top: 50px;
+}
+div.carousel .container {
+  margin-bottom: 50px;
+}
+
+img.logo {
+  display: inline;
+  float: left;
+  width: 47.91667%;
+  margin: 0 1.04167%;
+  margin-left: 26.04167%;
 }
 
 div.headline {
@@ -438,6 +450,13 @@ h2.news {
   color: #2c3e50;
   font-family: "arvo", serif;
   letter-spacing: -1px;
+}
+
+span.continue-reading {
+  color: #2c3e50;
+  text-transform: uppercase;
+  font-family: "roboto condensed", sans-serif;
+  font-weight: 700;
 }
 
 body {
