@@ -865,4 +865,22 @@ footer#page i:hover {
   color: #27ae60;
 }
 
+@media all and (max-width: 560px) {
+  footer > .container > .social-media {
+    display: inline;
+    float: left;
+    width: 97.91667%;
+    margin: 0 1.04167%;
+    text-align: center;
+  }
+
+  footer > .container > .info {
+    display: inline;
+    float: left;
+    width: 97.91667%;
+    margin: 0 1.04167%;
+    text-align: center;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

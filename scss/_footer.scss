@@ -25,3 +25,15 @@ footer#page {
 		}
 	}
 }
+
+@media all and (max-width: 560px) {
+	footer > .container > .social-media {
+		@include column(12);
+		text-align: center;
+	}
+
+	footer > .container > .info {
+		@include column(12);
+		text-align: center;
+	}
+}
