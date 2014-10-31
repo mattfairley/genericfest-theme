@@ -50,9 +50,9 @@ div.carousel {
    //                 Info section on main page
 // ======================================================
 
-div.info {
-  // padding-top: 30px;
-  // padding-bottom: 60px;
+div.headline {
+  padding-top: 30px;
+  padding-bottom: 60px;
   @include clearfix();
   img.icon {
     @include column(4);
