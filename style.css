@@ -246,8 +246,6 @@ div.carousel {
 }
 
 div.info {
-  padding-top: 30px;
-  padding-bottom: 60px;
   *zoom: 1;
 }
 div.info:before, div.info:after {
@@ -312,6 +310,23 @@ pre {
 
 footer {
   clear: both;
+}
+
+.social-media {
+  display: inline;
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+  margin: 5px 0;
+  text-align: left;
+}
+
+.info {
+  display: inline;
+  float: left;
+  width: 620px;
+  margin: 0 10px;
+  text-align: right;
 }
 
 body {
@@ -410,10 +425,6 @@ body {
   background: #ecf0f1;
 }
 
-div.info {
-  background: #27ae60;
-}
-
 div.carousel {
   background: url(img/festival-placeholder.jpg);
   background-size: cover;
@@ -498,11 +509,7 @@ input[type="email"] {
   border: none;
   border-radius: 5px;
   font-family: "roboto", sans-serif;
-<<<<<<< HEAD
-  outline-color: #2ecc71;
-=======
   outline-color: #27ae60;
->>>>>>> 3fdbbc122e66b9116d3828ae486ba661f9c58711
   margin: 5px;
   padding: 5px;
 }
@@ -752,7 +759,7 @@ nav.menu ul li {
   padding: 0;
 }
 nav.menu ul li i {
-  color: #2ecc71;
+  color: #27ae60;
   padding-right: 3px;
 }
 nav.menu ul li a {
@@ -769,7 +776,7 @@ nav.menu ul li a:hover {
   background: #3e5771;
 }
 nav.menu ul li a:hover i {
-  color: #54d98c;
+  color: #36d278;
 }
 
 footer#page {
@@ -784,12 +791,17 @@ footer#page span.copy {
 footer#page span.theme-by {
   color: #95a5a6;
 }
+footer#page p {
+  font-size: 12px;
+  font-size: 0.75rem;
+}
 footer#page i {
   color: #95a5a6;
-  margin: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 footer#page i:hover {
-  color: #2ecc71;
+  color: #27ae60;
 }
 
 /*# sourceMappingURL=style.css.map */

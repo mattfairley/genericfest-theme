@@ -51,8 +51,8 @@ div.carousel {
 // ======================================================
 
 div.info {
-  padding-top: 30px;
-  padding-bottom: 60px;
+  // padding-top: 30px;
+  // padding-bottom: 60px;
   @include clearfix();
   img.icon {
     @include column(4);
@@ -112,4 +112,19 @@ pre {
 
 footer {
   clear:both;
+}
+
+// ======================================================
+   //                 Footer
+// ======================================================
+
+.social-media {
+  @include column(4);
+  margin: 5px 0;
+  text-align: left;
+}
+
+.info {
+  @include column(8);
+  text-align: right;
 }
