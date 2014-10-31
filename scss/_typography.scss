@@ -105,7 +105,14 @@ h2.news {
 	text-transform: uppercase;
 	color: $dark;
 	font-family: $display-font;
-	letter-spacing: -1px
+	// letter-spacing: 5px;
+	margin-bottom: 0;
+}
+
+h2.page-title {
+	font-family: $display-font;
+	text-transform: uppercase;
+	color: $grey;
 }
 
 span.continue-reading {

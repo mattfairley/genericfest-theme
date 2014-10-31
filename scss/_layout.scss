@@ -22,6 +22,14 @@ img.alignright    { padding-left: 5px; }
   padding-bottom: 50px;
 }
 
+article.post-excerpt {
+  border-bottom: 4px double $grey;
+}
+
+article.post-excerpt:last-of-type {
+  border-bottom: 0;
+}
+
 .full {
   width:100%;
 }
@@ -31,22 +39,34 @@ img.alignright    { padding-left: 5px; }
 // ======================================================
 .sidebar {
   @include column(4);
-  ul {
-    margin:0;
-    padding:0;
-    li {
-      list-style: none;
-    }
+}
+
+ul.xoxo {
+  margin:0;
+  margin-top: 30px;
+  padding:0;
+  li {
+    list-style: none;
   }
+  &>li {
+    margin-bottom: 30px;  
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+h3.widget-title {
+  margin-top: 0;
 }
 
 //carousel section:
 
 div.carousel {
-  height: 90vh;
   padding-top: 50px;
   .container {
-    margin-bottom: 50px
+    padding-bottom: 50px
   }
 }
 
@@ -63,12 +83,15 @@ div.headline {
   padding-top: 30px;
   padding-bottom: 60px;
   @include clearfix();
-  img.icon {
-    @include column(4);
-    @include push(2);
+  img.sash {
+    @include column(10);
+    @include push(1);
   }
   p.info {
-    @include column(4);
+    @include column(6);
+    @include push(3);
+    padding-top: 50px;
+    text-align: center;
   }
 }
 

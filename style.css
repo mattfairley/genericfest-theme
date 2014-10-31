@@ -223,6 +223,14 @@ img.alignright {
   padding-bottom: 50px;
 }
 
+article.post-excerpt {
+  border-bottom: 4px double #95a5a6;
+}
+
+article.post-excerpt:last-of-type {
+  border-bottom: 0;
+}
+
 .full {
   width: 100%;
 }
@@ -233,20 +241,32 @@ img.alignright {
   width: 31.25%;
   margin: 0 1.04167%;
 }
-.sidebar ul {
+
+ul.xoxo {
+  margin: 0;
+  margin-top: 30px;
+  padding: 0;
+}
+ul.xoxo li {
+  list-style: none;
+}
+ul.xoxo > li {
+  margin-bottom: 30px;
+}
+ul.xoxo ul {
   margin: 0;
   padding: 0;
 }
-.sidebar ul li {
-  list-style: none;
+
+h3.widget-title {
+  margin-top: 0;
 }
 
 div.carousel {
-  height: 90vh;
   padding-top: 50px;
 }
 div.carousel .container {
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 img.logo {
@@ -269,18 +289,21 @@ div.headline:before, div.headline:after {
 div.headline:after {
   clear: both;
 }
-div.headline img.icon {
+div.headline img.sash {
   display: inline;
   float: left;
-  width: 31.25%;
+  width: 81.25%;
   margin: 0 1.04167%;
-  margin-left: 17.70833%;
+  margin-left: 9.375%;
 }
 div.headline p.info {
   display: inline;
   float: left;
-  width: 31.25%;
+  width: 47.91667%;
   margin: 0 1.04167%;
+  margin-left: 26.04167%;
+  padding-top: 50px;
+  text-align: center;
 }
 
 blockquote {
@@ -449,7 +472,13 @@ h2.news {
   text-transform: uppercase;
   color: #2c3e50;
   font-family: "arvo", serif;
-  letter-spacing: -1px;
+  margin-bottom: 0;
+}
+
+h2.page-title {
+  font-family: "arvo", serif;
+  text-transform: uppercase;
+  color: #95a5a6;
 }
 
 span.continue-reading {
@@ -471,16 +500,6 @@ div.carousel {
   background: url(img/festival-placeholder.jpg);
   background-size: cover;
   position: relative;
-}
-div.carousel:after {
-  content: '';
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  position: absolute;
-  background: rgba(149, 165, 166, 0.5);
-  z-index: 10;
 }
 div.carousel .container {
   position: relative;
