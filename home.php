@@ -4,9 +4,9 @@
 <!-- carousel -->
 <div class="carousel">
 	<div class="container">	
-		<h1 class="logo">GenericFest</h1>
-		<!-- <img src="" alt="" class="logo"> -->
-		<h2 class="tagline">The greatest local event or festival</h2>
+		<!-- <h1 class="logo">GenericFest</h1> -->
+		<img src="<?php echo get_template_directory_uri() . '/img/genericfest-logo.png' ?>"  alt="Generic Fest" class="logo">
+		<!-- <h2 class="tagline">The greatest local event or festival</h2> -->
 		<!-- down arrow <img src="" alt=""> -->
 	</div>
 </div>
