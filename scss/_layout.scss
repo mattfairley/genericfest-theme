@@ -20,6 +20,9 @@ img.alignright    { padding-left: 5px; }
   float:left;
   @include column(8);
   padding-bottom: 50px;
+  @include bp(medium) {
+    @include column(12);
+  }
 }
 
 article.post-excerpt {
@@ -44,6 +47,9 @@ article.post-excerpt:last-of-type {
 // ======================================================
 .sidebar {
   @include column(4);
+  @include bp(medium) {
+    display: none;
+  }
 }
 
 ul.xoxo {
@@ -64,6 +70,8 @@ ul.xoxo {
 
 h3.widget-title {
   margin-top: 0;
+  text-transform: uppercase;
+  @include font-size(20px);
 }
 
 //carousel section:
@@ -78,6 +86,14 @@ div.carousel {
 img.logo {
   @include column(6);
   @include push(3);
+  @include bp(medium) {
+    @include column(10);
+    @include push(1);
+  }
+  @include bp(small) {
+    @include column(12);
+    @include push(0);
+  }
 }
 
 // ======================================================
@@ -91,12 +107,24 @@ div.headline {
   img.sash {
     @include column(10);
     @include push(1);
+    @include bp(small) {
+      @include push(0);
+      @include column(12); 
+    }
   }
   p.info {
     @include column(6);
     @include push(3);
     padding-top: 50px;
     text-align: center;
+    @include bp(medium) {
+      @include column(10);      
+      @include push(1);
+    }
+    @include bp(small) {
+      @include column(12);
+      @include push(0);
+    }
   }
 }
 
