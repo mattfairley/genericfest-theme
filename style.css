@@ -325,7 +325,6 @@ img.logo {
 
 img.headline-image {
   margin-top: 20px;
-  width: 700px;
 }
 
 div.headline {
@@ -884,7 +883,7 @@ header {
 }
 
 header h1 {
-  width: 30%;
+  width: 40%;
   float: left;
   margin: 0;
   line-height: 60px;
@@ -892,11 +891,23 @@ header h1 {
   font-size: 2.5rem;
   text-shadow: 1px 1px 0px #000;
 }
+@media (max-width: 940px) {
+  header h1 {
+    display: inline;
+    float: left;
+    width: 97.91667%;
+    margin: 0 1.04167%;
+  }
+}
 
 nav.menu {
   float: right;
   width: 60%;
   text-align: right;
+}
+
+#responsive-menu {
+  text-transform: uppercase;
 }
 
 nav.menu ul {
