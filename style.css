@@ -323,6 +323,11 @@ img.logo {
   }
 }
 
+img.headline-image {
+  margin-top: 20px;
+  width: 700px;
+}
+
 div.headline {
   padding-top: 30px;
   padding-bottom: 60px;
