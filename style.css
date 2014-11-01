@@ -925,11 +925,6 @@ nav.menu ul li a:hover i {
   color: #36d278;
 }
 
-@media all and (max-width: 560px) {
-  header > .menu {
-    display: none;
-  }
-}
 footer#page {
   text-align: center;
   background: #2c3e50;
