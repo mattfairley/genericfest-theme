@@ -10,12 +10,15 @@ header {
 // =======================================================
 
 header h1 {
-	width: 30%;
+	width: 40%;
 	float: left;
 	margin: 0;
 	line-height: 60px;
 	@include font-size(40px);
 	text-shadow: 1px 1px 0px #000;
+	@include bp(large) {
+		@include column(12);
+	}
 }
 
 // =======================================================
@@ -25,6 +28,10 @@ nav.menu {
 	float: right;
 	width: 60%;
 	text-align: right;
+}
+
+#responsive-menu {
+	text-transform: uppercase;
 }
 
 nav.menu ul {
