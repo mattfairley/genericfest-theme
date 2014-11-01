@@ -222,6 +222,14 @@ img.alignright {
   margin: 0 1.04167%;
   padding-bottom: 50px;
 }
+@media (max-width: 768px) {
+  .content {
+    display: inline;
+    float: left;
+    width: 97.91667%;
+    margin: 0 1.04167%;
+  }
+}
 
 article.post-excerpt {
   *zoom: 1;
@@ -253,6 +261,11 @@ article.post-excerpt:last-of-type {
   width: 31.25%;
   margin: 0 1.04167%;
 }
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}
 
 ul.xoxo {
   margin: 0;
@@ -272,6 +285,9 @@ ul.xoxo ul {
 
 h3.widget-title {
   margin-top: 0;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 div.carousel {
@@ -287,6 +303,24 @@ img.logo {
   width: 47.91667%;
   margin: 0 1.04167%;
   margin-left: 26.04167%;
+}
+@media (max-width: 768px) {
+  img.logo {
+    display: inline;
+    float: left;
+    width: 81.25%;
+    margin: 0 1.04167%;
+    margin-left: 9.375%;
+  }
+}
+@media (max-width: 480px) {
+  img.logo {
+    display: inline;
+    float: left;
+    width: 97.91667%;
+    margin: 0 1.04167%;
+    margin-left: 1.04167%;
+  }
 }
 
 div.headline {
@@ -308,6 +342,15 @@ div.headline img.sash {
   margin: 0 1.04167%;
   margin-left: 9.375%;
 }
+@media (max-width: 480px) {
+  div.headline img.sash {
+    margin-left: 1.04167%;
+    display: inline;
+    float: left;
+    width: 97.91667%;
+    margin: 0 1.04167%;
+  }
+}
 div.headline p.info {
   display: inline;
   float: left;
@@ -316,6 +359,24 @@ div.headline p.info {
   margin-left: 26.04167%;
   padding-top: 50px;
   text-align: center;
+}
+@media (max-width: 768px) {
+  div.headline p.info {
+    display: inline;
+    float: left;
+    width: 81.25%;
+    margin: 0 1.04167%;
+    margin-left: 9.375%;
+  }
+}
+@media (max-width: 480px) {
+  div.headline p.info {
+    display: inline;
+    float: left;
+    width: 97.91667%;
+    margin: 0 1.04167%;
+    margin-left: 1.04167%;
+  }
 }
 
 p.nav-previous {
