@@ -9,17 +9,6 @@ h1 {
 	letter-spacing: -1px;
 }
 
-// h2
-h2.tagline {
-	font-family: $accent-font;
-	text-transform: uppercase;
-	@include font-size(38px);
-	letter-spacing: -2px;
-	color: $accent;
-	text-shadow: 2px 2px 0px #000;
-	text-align: center;
-}
-
 // h2 - sub-heading
 h2 {
 	font-family: $accent-font;

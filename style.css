@@ -220,7 +220,9 @@ img.alignright {
   float: left;
   width: 64.58333%;
   margin: 0 1.04167%;
+  padding: 20px;
   padding-bottom: 50px;
+  padding-top: 0;
 }
 @media (max-width: 768px) {
   .content {
@@ -466,25 +468,6 @@ h1 {
   letter-spacing: -1px;
 }
 
-h1.logo {
-  font-size: 50px;
-  font-size: 3.125rem;
-  letter-spacing: 10px;
-  text-shadow: 3px 2px white;
-  text-align: center;
-}
-
-h2.tagline {
-  font-family: "roboto condensed", sans-serif;
-  text-transform: uppercase;
-  font-size: 38px;
-  font-size: 2.375rem;
-  letter-spacing: -2px;
-  color: #27ae60;
-  text-shadow: 2px 2px 0px #000;
-  text-align: center;
-}
-
 h2 {
   font-family: "roboto condensed", sans-serif;
   font-size: 32px;
@@ -643,25 +626,63 @@ input[type=radio] {
   background: purple;
 }
 
-textarea {
+textarea, input[type="text"],
+input[type="password"],
+input[type="email"], input#s {
   background: #fff;
   border: none;
   border-radius: 5px;
   font-family: "roboto", sans-serif;
   outline-color: #27ae60;
-  margin: 5px;
+  padding: 10px;
 }
 
-input[type="text"],
-input[type="password"],
-input[type="email"] {
-  background: #fff;
+form.wpcf7-form input[type="submit"], input.searchsubmit {
   border: none;
+  background: #27ae60;
+  color: #2c3e50;
+  font-family: "roboto condensed", sans-serif;
+  text-transform: uppercase;
   border-radius: 5px;
-  font-family: "roboto", sans-serif;
-  outline-color: #27ae60;
-  margin: 5px;
-  padding: 5px;
+}
+
+textarea {
+  width: 75%;
+}
+
+@media (max-width: 940px) {
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    width: 60%;
+  }
+}
+
+form.wpcf7-form input[type="submit"] {
+  padding: 15px;
+  font-size: 20px;
+  font-size: 1.25rem;
+}
+
+input#s {
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 70%;
+}
+@media (max-width: 940px) {
+  input#s {
+    width: 60%;
+  }
+}
+
+input.searchsubmit {
+  padding: 10px;
+  width: 25%;
+}
+@media (max-width: 940px) {
+  input.searchsubmit {
+    width: 35%;
+  }
 }
 
 #comments .navigation {
@@ -900,6 +921,12 @@ header h1 {
   }
 }
 
+@media all and (max-width: 480px) {
+  header h1 {
+    font-size: 34px;
+    font-size: 2.125rem;
+  }
+}
 nav.menu {
   float: right;
   width: 60%;
