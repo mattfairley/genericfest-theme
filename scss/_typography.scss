@@ -9,14 +9,6 @@ h1 {
 	letter-spacing: -1px;
 }
 
-// h1 - logo
-h1.logo {
-	@include font-size(50px);
-	letter-spacing: 10px;
-	text-shadow: 3px 2px white;
-	text-align: center;
-}
-
 // h2
 h2.tagline {
 	font-family: $accent-font;
