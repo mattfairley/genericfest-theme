@@ -19,7 +19,6 @@
 textarea {
 	@extend %input;
 	width: 75%;
-	// text-transform: uppercase;
 }
 
 input[type="text"],
@@ -44,9 +43,19 @@ form.wpcf7-form span {
 
 input#s {
 	@extend %input;
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 70%;
+	@include bp(large) {
+		width: 60%;
+	}
 }
 
 input.searchsubmit {
 	@extend %submitbutton;
 	padding: 10px;
+	width: 25%;
+	@include bp(large) {
+		width: 35%;	
+	}
 }
