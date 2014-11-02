@@ -1,22 +1,52 @@
-textarea {
+%input {
 	background: #fff;
 	border: none;
 	border-radius: 5px;
 	font-family: $main-font;
 	outline-color: $accent;
-	margin: 5px;
+	padding: 10px;
+}
+
+%submitbutton {
+	border: none;
+	background: $accent;
+	color: $dark;
+	font-family: $accent-font;
+	text-transform: uppercase;
+	border-radius: 5px;
+}
+
+textarea {
+	@extend %input;
+	width: 75%;
 	// text-transform: uppercase;
 }
 
 input[type="text"],
 input[type="password"],
 input[type="email"] {
-	background: #fff;
-	border: none;
-	border-radius: 5px;
-	font-family: $main-font;
-	outline-color: $accent;
-	// text-transform: uppercase;
-	margin: 5px;
-	padding: 5px;
+	@extend %input;
+	// display: inline-block;
+	@include bp(large) {
+		width: 60%;
+	}
+}
+
+form.wpcf7-form input[type="submit"] {
+	@extend %submitbutton;
+	padding: 15px;
+	@include font-size(20px);
+}
+
+form.wpcf7-form span {
+	// display: inline-block;
+}
+
+input#s {
+	@extend %input;
+}
+
+input.searchsubmit {
+	@extend %submitbutton;
+	padding: 10px;
 }
