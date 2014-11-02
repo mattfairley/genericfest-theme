@@ -14,10 +14,16 @@ header h1 {
 	float: left;
 	margin: 0;
 	line-height: 60px;
-	@include font-size(34px);
+	@include font-size(40px);
 	text-shadow: 1px 1px 0px #000;
 	@include bp(large) {
 		@include column(12);
+	}
+}
+
+@media all and (max-width: 480px) {
+	header h1 {
+		@include font-size(34px);
 	}
 }
 
